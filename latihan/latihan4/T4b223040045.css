@@ -85,10 +85,14 @@ video {
   font-size: 100%;
   vertical-align: baseline;
 }
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: lavender;
+}
 
 body {
-  background-color: lavender;
-  background-image: url(img/bgimg.png);
+  background-image: url(img/bgdot.webp);
 }
 
 .headerutama {
@@ -200,7 +204,7 @@ a {
 
 .backbutton {
   text-align: left;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 20px;
   padding-bottom: 20px;
 }
