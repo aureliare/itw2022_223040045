@@ -1,0 +1,235 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: lavender;
+  background-image: url(img/bgimg.png);
+}
+
+.headerutama {
+  background-color: lightpink;
+  height: 110px;
+}
+
+.headerh1 {
+  color: white;
+  font-family: verdana;
+  padding-left: 20px;
+  padding-top: 14px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+.headerul a {
+  color: white;
+}
+
+.headerul a:hover {
+  background-color: white;
+  color: lightpink;
+}
+
+.main {
+  padding-left: 20px;
+}
+
+.footer {
+  background-color: lightpink;
+  height: 30px;
+}
+
+.footerp1 {
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.footerp1 a {
+  color: white;
+}
+
+.footerp1 a:hover {
+  background-color: white;
+  color: lightpink;
+}
+
+.nextbutton {
+  text-align: right;
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.nextbutton a {
+  background-color: lightpink;
+  color: white;
+}
+
+.nextbutton a:hover {
+  font-size: 17px;
+  background-color: white;
+  color: lightpink;
+}
+
+.pnglogo {
+  float: right;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+.pnglogo:hover {
+  transform: rotate(360deg);
+  transition: 5s;
+}
+
+.mainh1 {
+  font-size: 60px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.mainp1 {
+  padding-top: 50px;
+}
+
+.mainh3s2 {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.mainp1s2 {
+  padding-top: 10px;
+}
+
+.backbutton {
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.backbutton a {
+  background-color: lightpink;
+  color: white;
+}
+
+.backbutton a:hover {
+  font-size: 17px;
+  background-color: white;
+  color: lightpink;
+}
+.source {
+  font-family: arial;
+  padding-top: 50px;
+  font-size: 13px;
+  font-style: italic;
+  color: grey;
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+
+.source a {
+  color: grey;
+}
+
+.source a:hover {
+  background-color: grey;
+  color: lavender;
+}
