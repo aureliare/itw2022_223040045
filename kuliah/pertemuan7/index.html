@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern CSS</title>
+    <style>
+      body {
+        height: 2000px;
+      }
+      .kotak1 {
+        width: 75px;
+        height: 150px;
+        background-color: rgb(255, 192, 203);
+        margin: auto;
+        border-radius: 0 75px 75px 0;
+        opacity: 0.5;
+        position: relative;
+        z-index: 10;
+      }
+      p {
+        position: relative;
+        top: -100px;
+      }
+
+      .kotak2 {
+        width: 200px;
+        height: 200px;
+        background-color: plum;
+        margin: auto;
+        /*box-shadow: [inset] <x-offset> <y-offset> <blur> [size] <color>;*/
+        box-shadow: 0px 0px 0px 10px salmon, 0px 0px 0px 20px pink,
+          0px 0px 0px 30px palevioletred, 0px 0px 0px 40px plum,
+          0px 0px 0px 50px purple;
+        border-radius: 50%;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 100px;
+        font-family: Arial;
+        font-size: 100px;
+        text-shadow: 5px 5px 5px pink;
+        color: white;
+      }
+      .kotak3 {
+        width: 200px;
+        height: 200px;
+        background-color: lightpink;
+        margin: auto;
+        font-size: 50px;
+        text-align: center;
+        line-height: 200px;
+        transition: 5s;
+      }
+
+      .kotak3:hover {
+        transform: rotate(720deg);
+        background-color: lightblue;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, at
+      excepturi odio autem aliquid dolorum modi molestias omnis aliquam impedit
+      rem consequuntur sint reiciendis blanditiis vitae pariatur quae eligendi
+      alias officiis nobis deserunt corrupti consequatur tempora. Aliquam in
+      neque, aperiam incidunt, at vel inventore eius quidem omnis fuga ea iure.
+    </p>
+    <div class="kotak2"></div>
+
+    <h1>Aurelia Melati Suci</h1>
+
+    <div class="kotak3">1</div>
+  </body>
+</html>
